@@ -8,13 +8,15 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { SellerSignupPage } from '../pages/seller-signup/seller-signup';
+import { BuyerSignupPage } from '../pages/buyer-signup/buyer-signup';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListPage,
-    SellerSignupPage
+    SellerSignupPage,
+    BuyerSignupPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { SellerSignupPage } from '../pages/seller-signup/seller-signup';
     MyApp,
     HomePage,
     ListPage,
-    SellerSignupPage
+    SellerSignupPage,
+    BuyerSignupPage
   ],
   providers: [
     StatusBar,
